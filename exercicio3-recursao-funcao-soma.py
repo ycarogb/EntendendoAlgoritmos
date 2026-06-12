@@ -14,12 +14,11 @@
 # print(somar([2, 4, 6]))
 
 
-def somar(numeros, i = 0):
-    if (len(numeros) == 0 ):
-        return 0
-
-    if(len(numeros) > i - 1):
-        return numeros[i] + somar(numeros, i + 1)
+def somar(lista):
+    if lista == []:  
+        return 0 
+    
+    return lista[0] + somar(lista[1:])  
 
 print(somar([2,4,6]))
 

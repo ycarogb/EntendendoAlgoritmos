@@ -28,4 +28,4 @@ def  pesquisa_binaria(lista, item):
 minha_lista = [1,3,5,7,9]
 
 
-print ("Resultado para -1: ", pesquisa_binaria(minha_lista, -1))
+print ("Resultado para 7: ", pesquisa_binaria(minha_lista, 7))
